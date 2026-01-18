@@ -134,7 +134,7 @@ The notebook runs a list of questions in parallel using `.batch()`:
 
 ## Tech Stack
 
-Core dependencies used in this project include: LangChain (core + community), PDF loaders (PyPDF/PyMuPDF), sentence-transformers embeddings, FAISS/Chroma packages (available for upgrades), Groq integration, dotenv, and docarray. :contentReference[oaicite:4]{index=4}
+Core dependencies used in this project include: LangChain (core + community), PDF loaders (PyPDF/PyMuPDF), sentence-transformers embeddings, FAISS/Chroma packages (available for upgrades), Groq integration, dotenv, and docarray.
 
 ---
 
@@ -145,3 +145,13 @@ Core dependencies used in this project include: LangChain (core + community), PD
 python -m venv .venv
 source .venv/bin/activate   # macOS/Linux
 # .venv\Scripts\activate    # Windows
+
+⚙️ Installation & Setup
+pip install -r requirements.txt
+
+🔑 Environment Variable (Groq API Key)
+
+Create a file named .env in the project root:
+GROQ_API_KEY=your_groq_key_here
+
+
